@@ -13,7 +13,7 @@ public class DemoApplication  {
 	public static final Logger logger = LogManager.getLogger(DemoApplication.class);
 	
 	public static void main(String[] args) {
-		logger.info("logger printed");
+		logger.info("logger printed")
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
